@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
               icon: Icon(Icons.logout))
         ],
         centerTitle: true,
-        title: Text('Home Page'),
+        title: Text('Home  Page'),
       ),
       body: ValueListenableBuilder<List<PostModel>>(
         valueListenable: _controller.posts,
